@@ -55,7 +55,7 @@ $(document).on("click", ".ip", () => {
 
 // This is to fetch the player count
 $(document).ready(() => {
-    let ip = $(".sip").attr("data-ip");
+    let ip = $(".sip").attr("play.viserion.art");
     let port = $(".sip").attr("data-port");
     if (port == "" || port == null) port = "25565";
     if (ip == "" || ip == null) return console.error("Error fetching player count - is the IP set correctly in the HTML?");
